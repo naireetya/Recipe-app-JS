@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="mobile-container">
+      <header>
+        <input
+          type="text"
+          class="search-text"
+          placeholder="Search..."
+          autofocus
+        />
+        <button class="search" type="submit">
+          <i class="fas fa-search"></i>
+        </button>
+      </header>
+      <h5 class="error">Cannot find</h5>
+      <div class="fav-container">
+        <h3>Top meals</h3>
+        <ul class="fav-meals">
+          <!-- <li>
+             
+            <img
+              src="https://www.themealdb.com/images/ingredients/Lime.png"
+              alt=""
+            /><span>Lime</span>
+             
+          </li>
+          <li>
+              
+            <img
+              src="https://www.themealdb.com/images/ingredients/Lime.png"
+              alt=""
+            /><span>Lime</span>
+             
+          </li>
+          <li>
+            <img
+              src="https://www.themealdb.com/images/ingredients/Lime.png"
+              alt=""
+            /><span>Lime</span>
+             
+          </li> -->
+        </ul>
+      </div>
+      <div class="search-meals">
+        <!--
+            <div class="search-meal">
+                <div class="search-meal-header">
+                  <span class="search-item"> Your Recipe </span>
+                  <img
+                    src="https://www.themealdb.com//images//media//meals//vptqpw1511798500.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="search-meal-body">
+                  <h4>Veggie</h4>
+                </div>
+              </div>
+          -->
+      </div>
+      <div class="meals">
+        <!-- 
+            <div class="meal">
+                <div class="meal-header">
+               <span class="random"> Random Recipe </span>
+               <img
+                 src="https://www.themealdb.com//images//media//meals//vptqpw1511798500.jpg"
+                 alt=""
+               />
+             </div>
+             <div class="meal-body">
+               <h4>Veggie</h4>
+               
+             </div>
+           </div>
+          -->
+      </div>
+    </div>
+    <div class="popup-container hidden">
+      <div class="popup">
+        <button class="close-popup"><i class="fas fa-times"></i></button>
+        <div class="meal-info"></div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
